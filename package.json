@@ -1,6 +1,6 @@
 {
   "name": "hshell",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "share a shell over the internet easily",
   "main": "server.js",
   "bin": {
