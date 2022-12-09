@@ -1,14 +1,17 @@
 {
-  "name": "htty",
-  "version": "1.0.0",
+  "name": "hshell",
+  "version": "1.0.3",
   "description": "share a shell over the internet easily",
   "main": "server.js",
   "bin": {
-    "server": "htty-server.js",
-    "client": "htty-client.js"
+    "hshell-server": "./server.js",
+    "hshell-client": "./client.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node server.js",
+    "client": "node client.js",
+    "run":"node server.js",
+    "start":"node server.js"
   },
   "author": "",
   "license": "ISC",
