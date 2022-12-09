@@ -1,8 +1,7 @@
-# htty
+# hshell
 The quickest, easiest way to share an interactive shell
 
 run the server, it will give you a key
-
 
 ```
 ubuntu@instance-20221201-1030:~/$ npm start
