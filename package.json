@@ -1,0 +1,21 @@
+{
+  "name": "htty",
+  "version": "1.0.0",
+  "description": "share a shell over the internet easily",
+  "main": "server.js",
+  "bin": {
+    "server": "htty-server.js",
+    "client": "htty-client.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/dht": "^6.3.4",
+    "base58-js": "^1.0.5",
+    "keypear": "^1.1.1",
+    "pump": "^3.0.0"
+  }
+}
