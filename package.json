@@ -1,0 +1,24 @@
+{
+  "name": "hshell",
+  "version": "1.0.5",
+  "description": "share a shell over the internet easily",
+  "main": "server.js",
+  "bin": {
+    "hshell-server": "./server.js",
+    "hshell-client": "./client.js"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "run":"node server.js",
+    "start":"node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/dht": "^6.3.4",
+    "base58-js": "^1.0.5",
+    "keypear": "^1.1.1",
+    "pump": "^3.0.0"
+  }
+}
